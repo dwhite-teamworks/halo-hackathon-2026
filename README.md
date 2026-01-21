@@ -6,7 +6,7 @@
 
 **Datasets**
 
-The datasets made available for this competition have been curated specifically for the event. They represent a subset of professional hockey data adapted for research and public use, focusing on recent NHL games to ensure relevance and practical application. 
+The datasets made available for this competition have been curated specifically for the event. They represent a subset of professional hockey data adapted for research and public use, focusing on recent games to ensure relevance and practical application. 
 
 ---
 

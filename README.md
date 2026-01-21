@@ -18,7 +18,7 @@ Half season sample from 2024-25 season
 
 
 
-**Teamworks Player Tracking Data*****
+**Teamworks Player Tracking Data**
 - Half season sample from 2024-25 season aligning with range of Sportlogiq event data 
 
 

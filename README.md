@@ -8,7 +8,7 @@ The data made available for this competition has been curated specifically for t
 
 The data provided is tracking-enhanced event data from 480 games in the 2023-24 AHL season. We've combined event data (e.g., faceoffs, passes, puck recoveries, dump-ins) along with player location data at the moment of the event. Note that since tracking data is derived from broadcast video, location data is not necessarily available for every player on the ice at the time of the event.
 
-Download here: https://teamworks1.box.com/s/6bjwwdxkh2fkj6ldw391ezwdzdmx8yqq
+Please note that the dataset will only be available to registered hackathon participants. If you are interested in participating - please register here: https://www.sportlogiq.com/halo-hackathon/
 
 The data is available in five separate datasets:
 
@@ -116,7 +116,7 @@ successful play and slot shot on net
 
 ## Submission Requirements
 
-- Deadline: February 16, 2026
+- Deadline: February 19th, 2026
 - Maximum 5 pages, exclusive of appendix
 - Recommended maximum 25MB file size 
 

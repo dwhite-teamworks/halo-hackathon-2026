@@ -57,9 +57,7 @@ Description of the `event_type` fields:
     - outsideblocked: blocked non-slot shot attempt
     - slot: unblocked shot attempt from the home plate area
     - slotblocked: blocked shot attempt from the home plate area
-- save
-    - onfailedblock
-    - none: none of the above
+- deflection
 - pass
     - d2d / d2doffboards: defensive zone non-outlet passes
     - outlet / outletoffboards: defensive zone pass driving play forward
@@ -76,29 +74,15 @@ Description of the `event_type` fields:
 - reception
     - ozentry: offensive zone entry pass reception
     - regular: all other pass reception attempts
+- failedpasslocation: target location of a failed pass attempt
+- receptionprevention: prevention of a pass reception by a defender
 - puckprotection: deke or body puck-protection attempt
 - check: stick or body check attempt
-- controlledexit: event for the team moving the puck via carry or pass from the defensive zone to the neutral zone
-    - carry / pass
-    - carrywithplay / passwithplay: controlled entry with successful play after
+- pressure: pressure applied on puck carrier on a shot attempt
 - block: pass or shot block attempt
-- controlledentry: event for the team moving the puck via carry or pass from the defensive or neutral zone to the offensive zone
-    - carrywithplaywithshotonnetandslotshot /
-passwithplaywithshotonnetandslotshot: controlled entries with
-successful play and slot shot on net
-    - carrywithplaywithshotonnet / passwithplaywithshotonnet: controlled entries with successful play and shot on net
-    - carrywithplaywithslotshot / passwithplaywithslotshot: controlled entries with successful play and slot shot attempt
-    - carrywithshotonnetandslotshot / passwithshotonnetandslotshot: controlled entries with slot shot on net
-    - carrywithshotonnet / passwithshotonnet: controlled entries with shot on net
-    - carrywithslotshot / passwithslotshot: controlled entries with slot shot attempt
-    - carrywithplay / passwithplay: all other carry/pass controlled entries with successful play
-    - carry / pass: all other carry/pass controlled entries
 - controlledentryagainst: event credited to the nearest defender when the opposing team moves the puck via carry or pass to the offensive zone
     - Number of attackers and defenders that are involved in the rush (1on0, 1on1, 1on2, 2on1, 2on2, 2on3, 3on1, 3on2, 3on3)
 - carry: line carries for either blue line or the centre ice red line
-- rebound
-    - onfailedblock
-    - none: none of the above
 - dumpout
     - ice: icing
     - boards: off the boards
@@ -106,13 +90,29 @@ successful play and slot shot on net
 - dumpin
     - dump
     - chip
+- dumpinagainst: event credited to the nearest defender when the opposing team dumps the puck into the offensive zone
+- controlledbreakout: event credited to the player who initiates a controlled breakout from the defensive zone
 - penaltydrawn: tripping, interference, hooking, holding, crosschecking, puckoverglass, boarding, roughing, delayofgame, highsticking, otherinfraction, slashing, elbowing, goalieinterference, charging, illegalchecktothehead
 - penalty: tripping, interference, hooking, holding, crosschecking, puckoverglass, boarding, roughing, delayofgame, highsticking, otherinfraction, slashing, elbowing, goalieinterference, charging, illegalchecktothehead, toomanymen
 - offside
 - icing
+- goal
+- whistle
 - assist (first, second)
+- shootout: indicator for start of shootout
 - soshot: shootout shot attempt
 - sogoal: shootout goal
+- socheck: shootout check
+- socarry: shootout carry
+- solpr: shootout loose puck recovery
+- sopuckprotection: shootout puck protection
+- penaltyshot: indicator for start of penalty shot
+- psshot: shot attemot on a penalty shot
+- pscheck: penalty shot check
+- pscarry: penalty shot carry
+- pslpr: penalty shot loose puck recovery
+- pspuckprotection: penalty shot puck protection
+- teamwithozonright: indicator for which team has the offensive zone to the right side (positive x-coordinate) of the rink
 
 ## Submission Requirements
 
